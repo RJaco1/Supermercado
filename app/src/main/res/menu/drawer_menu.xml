@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_categorias"
+            android:icon="@drawable/ic_delete"
+            android:title="Categorias de productos" />
+        <item
+            android:id="@+id/nav_agregar_producto"
+            android:icon="@drawable/ic_delete"
+            android:title="Agregar producto" />
+        <item
+            android:id="@+id/nav_actualizar_producto"
+            android:icon="@drawable/ic_delete"
+            android:title="Actualizar producto" />
+        <item
+            android:id="@+id/nav_eliminar_producto"
+            android:icon="@drawable/ic_delete"
+            android:title="Eliminar producto" />
+    </group>
+
+    <!--<item android:title="Usuarios">
+        <menu>
+            <item
+                android:id="@+id/nav_usuarios"
+                android:icon="@drawable/ic_delete"
+                android:title="usuario" />
+        </menu>
+    </item>-->
+</menu>
